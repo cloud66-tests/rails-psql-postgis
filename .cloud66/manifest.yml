@@ -9,7 +9,7 @@ production:
       ruby_version: 2.1.2
   postgresql:
     server: 
-      unique_name: psql1
+      unique_name: psqlpostgis1
       vendor: 'digitalocean'
       region: '4'
       size: '65'
