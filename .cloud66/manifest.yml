@@ -1,14 +1,16 @@
 production: 
   rails: 
-    server:
-      unique_name: railspsqlpostgis1
-      vendor: 'digitalocean'
-      region: '4'
-      size: '65'
+    servers:
+      server:
+        unique_name: railspsqlpostgis1
+        vendor: 'digitalocean'
+        region: '4'
+        size: '65'
     configuration:
       ruby_version: 2.1.2
   postgresql:
-    server: 
-      same_as: railspsqlpostgis1
+    servers:
+      server: 
+        same_as: railspsqlpostgis1
     configuration:
       postgis: true
