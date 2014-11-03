@@ -3,11 +3,11 @@ production:
     servers:
       - server:
           unique_name: railspsqlpostgis1
-          vendor: 'aws'
-          region: 'us-east-1'
-          size: 'm3.medium'
+          vendor: 'digitalocean'
+          region: '4'
+          size: '62'
     configuration:
-      ruby_version: 2.1.2
+      ruby_version: 2.1.4
   postgresql:
     servers:
       - server: 
