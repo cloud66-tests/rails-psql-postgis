@@ -4,8 +4,8 @@ production:
       - server:
           unique_name: railspsqlpostgis1
           vendor: 'digitalocean'
-          region: '4'
-          size: '62'
+          region: 'nyc1'
+          size: '2gb'
     configuration:
       ruby_version: 2.1.4
   postgresql:
